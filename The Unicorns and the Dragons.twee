@@ -1,0 +1,171 @@
+:: StoryTitle
+The Unicorns and the Dragons
+
+
+:: StoryData
+{
+  "ifid": "01EA18E4-B96F-4B0A-9789-58F00D31AA9A",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Begin",
+  "zoom": 1
+}
+
+
+:: Begin {"position":"800,325","size":"100,100"}
+This story is about you seeing a dragon.
+
+It is made by me (Juliette)!
+
+[[Let's start our adventure]]
+
+
+
+:: Let's start our adventure {"position":"800,450","size":"100,100"}
+Once upon a time, there lived an angry and tired dragon. 
+
+Do you want to have a cup of tea with the dragon?
+
+[[Yes]] 
+
+[[No]]
+
+
+:: No {"position":"925,575","size":"100,100"}
+That's a shame. You can have a nice boring life!
+
+[[I've changed my mind, I want an adventure! ->Yes]]
+
+
+:: Yes {"position":"650,600","size":"100,100"}
+Great! You can have an adventure!
+
+Do you want to take a [[trip on the train]] or do you want to go through the [[deep dark woods]]?
+
+
+:: a damp cave {"position":"775,1125","size":"100,100"}
+You spot a damp cave. There are lights coming from it.
+
+Do you want to [[go home now]], [[keep going and see the cave]] or [[tiptoe away]].
+
+
+:: another cave {"position":"800,1625","size":"100,100"}
+"Look!" you shout "There is a gigantic banana with a big grey dragon on it".
+
+The dragon wakes up and breathes fire! 
+
+The unicorns ride you away then you run back through the forest and safely [[home]].
+
+
+:: behind rocks {"position":"775,1000","size":"100,100"}
+Great! You didn't get spotted by the bear and it wanders off.
+
+Look over there - [[a damp cave]]!
+
+
+:: deep dark woods {"position":"725,750","size":"100,100"}
+Look! There is a bear! 
+
+It's coming towards you. 
+
+Quick! Do you want to [[hide]] or [[stay and get eaten]]?
+
+
+:: fallen tree {"position":"650,1000","size":"100,100"}
+You squash some insects. Oops!
+
+The bear sniffs around then goes away. 
+
+Look over there - [[a damp cave]]!
+
+
+
+:: go home now {"position":"650,1250","size":"100,100"}
+You feel scared and take some time to feel brave again.
+
+When you're ready you go back to the cave!
+
+
+:: hide {"position":"725,875","size":"100,100"}
+You hide in a [[fallen tree]] or [[behind rocks]]
+
+
+:: home {"position":"800,1750","size":"100,100"}
+You have some tea and cakes and think what a great adventure you've just been on. 
+
+Good night!
+
+
+:: keep going and see the cave {"position":"775,1250","size":"100,100"}
+Look up ahead! There are unicorns!
+
+One of them is rainbow and another has bright wings!
+
+Do you want to talk to the [[rainbow unicorn]] or the  [[one with bright wings]].
+
+
+
+:: one with bright wings {"position":"725,1375","size":"100,100"}
+She says "What are you doing here?"
+
+You tell her that you're looking for a dragon. 
+
+"Would you like to have a [[ride on my back]] or [[stay here]]?" she says.
+
+
+:: rainbow unicorn {"position":"850,1375","size":"100,100"}
+He says "What are you doing here?"
+
+You tell him that you're looking for a dragon. 
+
+"Would you like to [[ride on my back through the forest]] or [[stay here]]?" he says.
+
+
+:: ride on my back {"position":"625,1500","size":"100,100"}
+You climb up onto her back. She is smooth and soft.
+
+She flies you to [[another cave]] - this one is spooky!
+
+
+:: ride on my back through the forest {"position":"975,1500","size":"100,100"}
+You climb up onto his back. He is bumpy and warm.
+
+He runs to [[another cave]] - this one is spooky!
+
+
+:: stay and get eaten {"position":"850,875","size":"100,100"}
+You end up helping the bear and plants grow (when the bear poops you out). 
+
+(if you change your mind, you can press the back button).
+
+
+:: stay here {"position":"800,1500","size":"100,100"}
+You share unicorn cakes which are soft and pretty! 
+
+
+:: tiptoe away {"position":"900,1250","size":"100,100"}
+You feel scared and take some time to feel brave again.
+
+When you're ready you go back to the cave!
+
+
+:: trip on the train {"position":"550,750","size":"100,100"}
+The train sets off and it is very bumpy. 
+
+Whoops! The train crashes in a trench! I guess the trip on the train wasn't very safe. 
+
+We are trapped in [[the damp and dark woods ->deep dark woods]]!
+
+
+:: StoryStylesheet [stylesheet]
+html {
+	background-color: #FFFFFF;
+}
+
+html.desert {
+	background-color: Beige;
+}
+
+html.forest {
+	background-color: LightGreen;
+}
